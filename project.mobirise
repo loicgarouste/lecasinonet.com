@@ -10,7 +10,7 @@
         "secondaryColor": "#ff7300",
         "successColor": "#4af775",
         "infoColor": "#fffcce",
-        "warningColor": "#879A9F",
+        "warningColor": "#131b31",
         "dangerColor": "#B1A374",
         "mainFont": "Rubik",
         "display1Font": "Josefin Sans",
@@ -38,7 +38,7 @@
       ]
     },
     "versionFirst": "4.2.3",
-    "uniqCompNum": 165,
+    "uniqCompNum": 167,
     "versionPublish": "4.2.3",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -48,7 +48,7 @@
     "favicon": "@PROJECT_PATH@/assets/images/vegasfavicon-128x64.png",
     "noImageResize": "",
     "google-analytics": "",
-    "cookiesAlert": "<a href=\"//www.iubenda.com/privacy-policy/8231826\" class=\"iubenda-white iub-legal-only iubenda-embed\" title=\"Privacy Policy\">Privacy Policy</a><script type=\"text/javascript\">(function (w,d) {var loader = function () {var s = d.createElement(\"script\"), tag = d.getElementsByTagName(\"script\")[0]; s.src = \"//cdn.iubenda.com/iubenda.js\"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener(\"load\", loader, false);}else if(w.attachEvent){w.attachEvent(\"onload\", loader);}else{w.onload = loader;}})(window, document);</script>"
+    "cookiesAlert": ""
   },
   "pages": {
     "index.html": {
@@ -56,9 +56,9 @@
         "main": true,
         "title": "ACCUEIL",
         "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
-        "html_before": ""
+        "header_custom": "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css\" />\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js\"></script>\n<script>\nwindow.addEventListener(\"load\", function(){\nwindow.cookieconsent.initialise({\n  \"palette\": {\n    \"popup\": {\n      \"background\": \"#64386b\",\n      \"text\": \"#ffcdfd\"\n    },\n    \"button\": {\n      \"background\": \"#f8a8ff\",\n      \"text\": \"#3f0045\"\n    }\n  },\n  \"theme\": \"edgeless\",\n  \"content\": {\n    \"message\": \"Pour améliorer votre expérience sur le site du casino nous utilisons des cookies\",\n    \"dismiss\": \"C' est bon, je connais!\",\n    \"link\": \"En savoir plus \"\n  }\n})});\n</script>",
+        "footer_custom": "",
+        "html_before": "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css\" />\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js\"></script>\n<script>\nwindow.addEventListener(\"load\", function(){\nwindow.cookieconsent.initialise({\n  \"palette\": {\n    \"popup\": {\n      \"background\": \"#64386b\",\n      \"text\": \"#ffcdfd\"\n    },\n    \"button\": {\n      \"background\": \"#f8a8ff\",\n      \"text\": \"#3f0045\"\n    }\n  },\n  \"theme\": \"edgeless\",\n  \"content\": {\n    \"message\": \"Pour améliorer votre expérience sur le site du casino nous utilisons des cookies\",\n    \"dismiss\": \"C' est bon, je connais!\",\n    \"link\": \"En savoir plus \"\n  }\n})});\n</script>"
       },
       "components": [
         {
