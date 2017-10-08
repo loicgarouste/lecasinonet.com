@@ -15526,7 +15526,8 @@
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "TOURNOIS",
-        "order": 1
+        "order": 1,
+        "header_custom": ""
       },
       "components": [
         {
