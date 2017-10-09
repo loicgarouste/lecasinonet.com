@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "VEGASFIESTA.FR",
-    "currentPage": "httpwww.vegasfiesta.frtournois",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
       "title": "Mobirise 4",
@@ -38,7 +38,7 @@
       ]
     },
     "versionFirst": "4.2.3",
-    "uniqCompNum": 174,
+    "uniqCompNum": 177,
     "versionPublish": "4.2.3",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -481,7 +481,7 @@
             }
           },
           "_name": "header10",
-          "_customHTML": "<section class=\"header10\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/webimagefinal-2000x961.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#c1bbbd\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-lg-8 col-md-10 ml-auto\">\n            <h1 class=\"mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">3000 euros<br>200&nbsp;tours de machines </span><a href=\"page12.html\" class=\"text-secondary\">gratuits</a><br>\n            </h1>\n            <h3 class=\"mbr-section-subtitle align-right mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                \n            </h3>\n            <p class=\"mbr-text align-right pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">formulaire de contact</p>\n            <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-5\"><a class=\"btn btn-md btn-secondary\" href=\"index.html#header4-13\">jouez maintenant</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header10\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"9\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/webimagefinal-2000x961.png\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#c1bbbd\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-lg-8 col-md-10 ml-auto\">\n            <h1 class=\"mbr-section-title align-right mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\"><span style=\"font-weight: normal;\">3000 euros<br>200&nbsp;tours de machines </span><a href=\"page12.html\" class=\"text-secondary\">gratuits</a><br>\n            </h1>\n            <h3 class=\"mbr-section-subtitle align-right mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showSubTitle\">\n                \n            </h3>\n            <p class=\"mbr-text align-right pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\" data-app-selector=\".mbr-text, .mbr-section-btn\">formulaire de contact</p>\n            <div class=\"mbr-section-btn align-right\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-5\"><a class=\"btn btn-md btn-secondary\" href=\"http://go.vegasfiesta.com\" target=\"_blank\">mobile</a> <a class=\"btn btn-md btn-secondary\" href=\"index.html#header4-13\">jouez</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_cid": "qwrvaasul0",
           "_anchor": "header10-o",
           "_PHPplaceholders": [],
@@ -1288,7 +1288,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "5 REEL CIRCUS",
-        "order": 5,
+        "order": 6,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -1726,7 +1726,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "ARABIAN TALES",
-        "order": 6,
+        "order": 7,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -2164,7 +2164,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "BLACKJACK",
-        "order": 7,
+        "order": 8,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -2602,7 +2602,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "ROULETTE",
-        "order": 8,
+        "order": 9,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -3040,7 +3040,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CAVALIER CASH",
-        "order": 9,
+        "order": 10,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -3478,7 +3478,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "ALIEN SPINVASION",
-        "order": 10,
+        "order": 11,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -3916,7 +3916,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CHAMPS-ELYSEES",
-        "order": 11,
+        "order": 12,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -4354,7 +4354,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CRAZY CAMEL CASH",
-        "order": 12,
+        "order": 13,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -4791,7 +4791,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "FROGGED",
-        "order": 13,
+        "order": 14,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -5228,7 +5228,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "A DAY AT THE DERBY",
-        "order": 14,
+        "order": 15,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -5665,7 +5665,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "VIDEO POKER",
-        "order": 15,
+        "order": 16,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -6102,7 +6102,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CATSINO",
-        "order": 16,
+        "order": 17,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -6539,7 +6539,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CHARIOTS OF FIRE",
-        "order": 17,
+        "order": 18,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -6976,7 +6976,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CHICKEN LITTLE",
-        "order": 18,
+        "order": 19,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -7413,7 +7413,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CIRQUE DU SLOTS",
-        "order": 19,
+        "order": 20,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -7850,7 +7850,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "RISE OF POSEIDON",
-        "order": 20,
+        "order": 21,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -8287,7 +8287,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "COSTUME PARTY",
-        "order": 21,
+        "order": 22,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -8724,7 +8724,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CRAPS",
-        "order": 22,
+        "order": 23,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -9161,7 +9161,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "FAST LANE",
-        "order": 23,
+        "order": 24,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -9598,7 +9598,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "5 X WINS",
-        "order": 24,
+        "order": 25,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script><script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -10035,7 +10035,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "GNOME SWEET GNOME",
-        "order": 25,
+        "order": 26,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -10472,7 +10472,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "BLAZING BUFFALO",
-        "order": 26,
+        "order": 27,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -10909,7 +10909,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CAST FOR CASH",
-        "order": 27,
+        "order": 28,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -11346,7 +11346,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "MEGAWINS",
-        "order": 28,
+        "order": 29,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -11783,7 +11783,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "METAL DETECTOR",
-        "order": 29,
+        "order": 30,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -12220,7 +12220,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "WISHING CUP",
-        "order": 30,
+        "order": 31,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -12657,7 +12657,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "CLEOPATRA S COIN",
-        "order": 31,
+        "order": 32,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -13094,7 +13094,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "WHALE O'WINNINGS",
-        "order": 32,
+        "order": 33,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -13531,7 +13531,7 @@
       "settings": {
         "meta_descr": "Site Builder Description",
         "title": "ROLL OUT THE BARRELS",
-        "order": 33,
+        "order": 34,
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -13968,7 +13968,7 @@
       "settings": {
         "meta_descr": "Formulaire de contact",
         "title": "CONTACTEZ NOUS",
-        "order": 3,
+        "order": 4,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -14423,7 +14423,7 @@
       "settings": {
         "meta_descr": "Formulaire de contact",
         "title": "ARTICLES",
-        "order": 4,
+        "order": 5,
         "header_custom": "",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
@@ -15046,7 +15046,7 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "TERMES ET CONDITIONS",
-        "order": 2
+        "order": 3
       },
       "components": [
         {
@@ -15522,11 +15522,11 @@
         }
       ]
     },
-    "httpwww.vegasfiesta.frtournois": {
+    "page34.html": {
       "settings": {
         "meta_descr": "Web Page Generator Description",
         "title": "TOURNOIS",
-        "order": 1,
+        "order": 2,
         "header_custom": ""
       },
       "components": [
@@ -15920,11 +15920,11 @@
           "_cid": "qwlcqzk1Ul",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
+          "_anchor": "menu1-4u",
           "_protectedParams": [],
           "_global": true,
           "_once": "menu",
-          "_params": {},
-          "_anchor": "menu1-4q"
+          "_params": {}
         },
         {
           "_styles": {
@@ -16025,11 +16025,11 @@
           "_name": "table1",
           "_customHTML": "<section class=\"section-table\" group=\"Tables\" plugins=\"dataTables\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n  <mbr-parameters>\n  <!-- Block parameters controls (Blue \"Gear\" panel) -->\n    <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n    <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n    <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n    <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n    <input type=\"range\" inline title=\"Columns\" name=\"tableColumns\" min=\"1\" max=\"50\" step=\"1\" value=\"4\">\n    <input type=\"range\" inline title=\"Rows\" name=\"tableRows\" min=\"1\" max=\"50\" step=\"1\" value=\"10\">\n    <input type=\"color\" title=\"Table Border Color\" name=\"tbColor\" value=\"#131b31\">\n    <input type=\"checkbox\" title=\"Table Background\" name=\"tbBackground\">\n    <input type=\"color\" title=\"Table Background Color\" name=\"tbBgColor\" value=\"#efefef\" condition=\"tbBackground\">\n    <input type=\"checkbox\" title=\"Search\" name=\"isSearch\">\n    <fieldset type=\"background\" name=\"bg\" parallax>\n      <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/vegasfavicon-2000x1000.jpg\" parallax>\n      <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n      <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n    </fieldset>\n    <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n    <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n    <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">    \n  <!-- End block parameters -->\n  </mbr-parameters>\n  <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n  </div>\n  <div class=\"container container-table\">\n      <h2 class=\"mbr-section-title mbr-fonts-style align-center pb-3\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\" mbr-if=\"showTitle\">\n          Tableau du classeement intermédiaire du tournoi de mises en cours</h2>\n      <h3 class=\"mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Click blue \"Gear\" icon in the top right corner to hide/show search and info, change the the table background and other parameters.  In browser click on the table head to sort the table, use search to filter the table.     \n      </h3>\n      <div class=\"table-wrapper\">\n        <div class=\"container\">\n          <div class=\"row search\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\"></div>\n            <div class=\"col-md-6\">\n                <div class=\"dataTables_filter\">\n                  <label mbr-text class=\"searchInfo\">recherche:</label>\n                  <input class=\"form-control input-sm\" disabled>\n                </div>\n            </div>\n          </div>\n        </div>\n\n        <div class=\"container scroll\">\n          <table class=\"table\" mbr-class=\"{'isSearch':isSearch}\" cellspacing=\"0\">\n            <thead>\n              <tr class=\"table-heads \" mbr-list mbr-list-grow=\"tableColumns\">\n                  <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".head-item\">RANG</th>\n                  \n                  \n                  \n              <th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".head-item\">\n                      IDENTIFIANT</th><th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".head-item\">RANG</th><th mbr-text class=\"head-item mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".head-item\">\n                      IDENTIFIANT</th></tr>\n            </thead>\n\n            <tbody mbr-list mbr-list-grow=\"tableRows\">\n              <tr mbr-list mbr-list-grow=\"tableColumns\"> \n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">1</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>larenaude</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">11</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>jeannaschmal</b></td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">2</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>pascalerenant1946</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">12</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>francoiselacruche</b></td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">3</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>madolanicoise</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">13</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>dominique_lefebure</b></td></tr>\n              <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">4</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>ginevrasol</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">14</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>leonrogol</b></td></tr>\n            <tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">5</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>momosaid</b><br></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">15</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>vero.marechal</b><br></td></tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">6</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>passemoilesel</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">16</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>valerie17</b></td></tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">7</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>mcharal</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">17</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>fanfan51</b></td></tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">8</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>jeanvaljean12</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">18</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>defilippis5</b></td></tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">9</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>vachettesuisse</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">19</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>prolin</b></td></tr><tr mbr-list mbr-list-grow=\"tableColumns\">\n                <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">10</td>\n                \n                \n                \n              <td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>shalabarrera</b></td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\">20</td><td mbr-text class=\"body-item mbr-fonts-style\" mbr-theme-style=\"display-2\" data-app-selector=\".body-item\"><b>egrainvi</b></td></tr></tbody>\n          </table>\n        </div>\n        <div class=\"container\">\n          <div class=\"row info\" mbr-if=\"isSearch\">\n            <div class=\"col-md-6\">\n              <div mbr-text class=\"dataTables_info\" data-app-selector=\".dataTables_info\"></div>\n            </div>\n            <div class=\"col-md-6\"></div>\n          </div>\n        </div>\n      </div>\n    </div>\n</section>",
           "_cid": "qxtwnq6Vm8",
+          "_anchor": "table1-4v",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "table1-4r"
+          "_params": {}
         },
         {
           "_styles": {
@@ -16126,11 +16126,11 @@
           "_name": "countdown1",
           "_customHTML": "<section class=\"countdown1\" group=\"Countdowns\" plugins=\"countdown\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\">\n        <input type=\"text\" title=\"Countdown\" name=\"countdown\" value=\"2017/10/10\">\n        <input type=\"text\" inline title=\"Days\" name=\"daysCountdown\" value=\"Jours\">\n        <input type=\"text\" inline title=\"Hours\" name=\"hoursCountdown\" value=\"Heures\">\n        <input type=\"text\" inline title=\"Minutes\" name=\"minutesCountdown\" value=\"Minutes\">\n        <input type=\"text\" inline title=\"Seconds\" name=\"secondsCountdown\" value=\"Secondes\">\n        <input type=\"color\" title=\"Numbers Color\" name=\"numbersColor\" value=\"#28262b\">\n        <input type=\"color\" title=\"Labels Color\" name=\"labelsColor\" value=\"#ff7f9f\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/vegasfavicon-2000x1000.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#cccccc\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container \">\n        <h2 class=\"mbr-section-title pb-3 align-center mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><br>le tournoi se termine dans...</h2>\n        <h3 class=\"mbr-section-subtitle align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n            Mobirise has provided for website developers a growing library of modern blocks which can be used either partially or in full for every website developed through the builder.\n        </h3>\n        \n    </div>\n    <div class=\"container countdown-cont align-center\">\n        <div title=\"{{daysCountdown}}\" class=\"daysCountdown\"></div>\n        <div title=\"{{hoursCountdown}}\" class=\"hoursCountdown\"></div> \n        <div title=\"{{minutesCountdown}}\" class=\"minutesCountdown\"></div> \n        <div title=\"{{secondsCountdown}}\" class=\"secondsCountdown\"></div>\n        <div class=\"countdown pt-5 mt-2\" data-due-date=\"{{countdown}}\"> \n        </div>\n    </div>\n</section>",
           "_cid": "qxtEINqied",
+          "_anchor": "countdown1-4w",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {},
-          "_anchor": "countdown1-4t"
+          "_params": {}
         }
       ]
     }
