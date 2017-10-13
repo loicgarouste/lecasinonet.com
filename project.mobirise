@@ -56,7 +56,7 @@
         "main": true,
         "title": "ACCUEIL",
         "meta_descr": "",
-        "header_custom": "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css\" />\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js\"></script>\n<script>\nwindow.addEventListener(\"load\", function(){\nwindow.cookieconsent.initialise({\n  \"palette\": {\n    \"popup\": {\n      \"background\": \"#64386b\",\n      \"text\": \"#ffcdfd\"\n    },\n    \"button\": {\n      \"background\": \"#f8a8ff\",\n      \"text\": \"#3f0045\"\n    }\n  },\n  \"theme\": \"edgeless\",\n  \"content\": {\n    \"message\": \"Pour améliorer votre expérience sur le site du casino nous utilisons des cookies\",\n    \"dismiss\": \"C' est bon, je connais!\",\n    \"link\": \"En savoir plus \"\n  }\n})});\n</script>",
+        "header_custom": "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css\" />\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js\"></script>\n<script>\nwindow.addEventListener(\"load\", function(){\nwindow.cookieconsent.initialise({\n  \"palette\": {\n    \"popup\": {\n      \"background\": \"#64386b\",\n      \"text\": \"#ffcdfd\"\n    },\n    \"button\": {\n      \"background\": \"#f8a8ff\",\n      \"text\": \"#3f0045\"\n    }\n  },\n  \"theme\": \"edgeless\",\n  \"content\": {\n    \"message\": \"Pour améliorer votre expérience sur le site du casino nous utilisons des cookies\",\n    \"dismiss\": \"C' est bon, je connais!\",\n    \"link\": \"En savoir plus \"\n  }\n})});\n</script>\n<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
         "html_before": "<link rel=\"stylesheet\" type=\"text/css\" href=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css\" />\n<script src=\"//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js\"></script>\n<script>\nwindow.addEventListener(\"load\", function(){\nwindow.cookieconsent.initialise({\n  \"palette\": {\n    \"popup\": {\n      \"background\": \"#64386b\",\n      \"text\": \"#ffcdfd\"\n    },\n    \"button\": {\n      \"background\": \"#f8a8ff\",\n      \"text\": \"#3f0045\"\n    }\n  },\n  \"theme\": \"edgeless\",\n  \"content\": {\n    \"message\": \"Pour améliorer votre expérience sur le site du casino nous utilisons des cookies\",\n    \"dismiss\": \"C' est bon, je connais!\",\n    \"link\": \"En savoir plus \"\n  }\n})});\n</script>"
       },
@@ -686,7 +686,7 @@
             }
           },
           "_name": "gallery2",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#131b31\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,BootstrapCarouselSwipe,Gallery,VimeoPlayer,SliderVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\" inline>\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#131b31\">\n\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div mbr-gallery=\"gallery\" mbr-gallery-spacing=\"3\" mbr-gallery-show-filter mbr-gallery-show-text></div>\n    </div>\n\n</section>",
           "_cid": "qwNIkFxFec",
           "_anchor": "gallery2-19",
           "_PHPplaceholders": [],
@@ -1289,7 +1289,7 @@
         "meta_descr": "Site Builder Description",
         "title": "5 REEL CIRCUS",
         "order": 6,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -1727,7 +1727,7 @@
         "meta_descr": "Site Builder Description",
         "title": "ARABIAN TALES",
         "order": 7,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -2165,7 +2165,7 @@
         "meta_descr": "Site Builder Description",
         "title": "BLACKJACK",
         "order": 8,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -2603,7 +2603,7 @@
         "meta_descr": "Site Builder Description",
         "title": "ROULETTE",
         "order": 9,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -3041,7 +3041,7 @@
         "meta_descr": "Site Builder Description",
         "title": "CAVALIER CASH",
         "order": 10,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -3479,7 +3479,7 @@
         "meta_descr": "Site Builder Description",
         "title": "ALIEN SPINVASION",
         "order": 11,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -3917,7 +3917,7 @@
         "meta_descr": "Site Builder Description",
         "title": "CHAMPS-ELYSEES",
         "order": 12,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -4355,7 +4355,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CRAZY CAMEL CASH",
         "order": 13,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -4792,7 +4793,8 @@
         "meta_descr": "Site Builder Description",
         "title": "FROGGED",
         "order": 14,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -5229,7 +5231,8 @@
         "meta_descr": "Site Builder Description",
         "title": "A DAY AT THE DERBY",
         "order": 15,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -5666,7 +5669,8 @@
         "meta_descr": "Site Builder Description",
         "title": "VIDEO POKER",
         "order": 16,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -6103,7 +6107,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CATSINO",
         "order": 17,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -6540,7 +6545,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CHARIOTS OF FIRE",
         "order": 18,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -6977,7 +6983,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CHICKEN LITTLE",
         "order": 19,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -7414,7 +7421,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CIRQUE DU SLOTS",
         "order": 20,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -7851,7 +7859,8 @@
         "meta_descr": "Site Builder Description",
         "title": "RISE OF POSEIDON",
         "order": 21,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -8288,7 +8297,8 @@
         "meta_descr": "Site Builder Description",
         "title": "COSTUME PARTY",
         "order": 22,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -8725,7 +8735,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CRAPS",
         "order": 23,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -9162,7 +9173,8 @@
         "meta_descr": "Site Builder Description",
         "title": "FAST LANE",
         "order": 24,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -9599,7 +9611,8 @@
         "meta_descr": "Site Builder Description",
         "title": "5 X WINS",
         "order": 25,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script><script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script><script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -10036,7 +10049,8 @@
         "meta_descr": "Site Builder Description",
         "title": "GNOME SWEET GNOME",
         "order": 26,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -10473,7 +10487,8 @@
         "meta_descr": "Site Builder Description",
         "title": "BLAZING BUFFALO",
         "order": 27,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -10910,7 +10925,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CAST FOR CASH",
         "order": 28,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -11347,7 +11363,8 @@
         "meta_descr": "Site Builder Description",
         "title": "MEGAWINS",
         "order": 29,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -11784,7 +11801,8 @@
         "meta_descr": "Site Builder Description",
         "title": "METAL DETECTOR",
         "order": 30,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -12221,7 +12239,8 @@
         "meta_descr": "Site Builder Description",
         "title": "WISHING CUP",
         "order": 31,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -12658,7 +12677,8 @@
         "meta_descr": "Site Builder Description",
         "title": "CLEOPATRA S COIN",
         "order": 32,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -13095,7 +13115,8 @@
         "meta_descr": "Site Builder Description",
         "title": "WHALE O'WINNINGS",
         "order": 33,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -13532,7 +13553,8 @@
         "meta_descr": "Site Builder Description",
         "title": "ROLL OUT THE BARRELS",
         "order": 34,
-        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
+        "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -13969,7 +13991,7 @@
         "meta_descr": "Formulaire de contact",
         "title": "CONTACTEZ NOUS",
         "order": 4,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -14424,7 +14446,7 @@
         "meta_descr": "Formulaire de contact",
         "title": "ARTICLES",
         "order": 5,
-        "header_custom": "",
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>",
         "footer_custom": "<script>\n  window.intercomSettings = {\n    app_id: \"s8btgcy9\"\n  };\n</script>\n<script>(function(){var w=window;var ic=w.Intercom;if(typeof ic===\"function\"){ic('reattach_activator');ic('update',intercomSettings);}else{var d=document;var i=function(){i.c(arguments)};i.q=[];i.c=function(args){i.q.push(args)};w.Intercom=i;function l(){var s=d.createElement('script');s.type='text/javascript';s.async=true;s.src='https://widget.intercom.io/widget/s8btgcy9';var x=d.getElementsByTagName('script')[0];x.parentNode.insertBefore(s,x);}if(w.attachEvent){w.attachEvent('onload',l);}else{w.addEventListener('load',l,false);}}})()</script>"
       },
       "components": [
@@ -15046,7 +15068,8 @@
       "settings": {
         "meta_descr": "Web Page Creator Description",
         "title": "TERMES ET CONDITIONS",
-        "order": 3
+        "order": 3,
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
@@ -15527,7 +15550,7 @@
         "meta_descr": "Web Page Generator Description",
         "title": "TOURNOIS",
         "order": 2,
-        "header_custom": ""
+        "header_custom": "<script type='text/javascript' src='http://www.geolify.com/georedirect.php?id=29388'></script>"
       },
       "components": [
         {
