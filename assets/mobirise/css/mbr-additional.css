@@ -14703,10 +14703,30 @@ body {
     flex-shrink: 0;
   }
 }
+.cid-qzrEnrZ3kM {
+  padding-top: 0px;
+  padding-bottom: 75px;
+  background-color: #ffffff;
+}
+@media (min-width: 992px) {
+  .cid-qzrEnrZ3kM .mbr-figure {
+    padding-right: 4rem;
+  }
+}
+@media (max-width: 991px) {
+  .cid-qzrEnrZ3kM .mbr-figure {
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 767px) {
+  .cid-qzrEnrZ3kM .mbr-text {
+    text-align: center;
+  }
+}
 .cid-qxtwnq6Vm8 {
   padding-top: 120px;
-  padding-bottom: 0px;
-  background-color: #ffffff;
+  padding-bottom: 120px;
+  background-image: url("../../../assets/images/hallowween.gif");
 }
 .cid-qxtwnq6Vm8 .mbr-section-subtitle {
   color: #767676;
@@ -14730,7 +14750,7 @@ body {
 .cid-qxtwnq6Vm8 table {
   width: 100% !important;
   margin-top: 6px;
-  border: 1px solid #131b31;
+  border: 1px solid #aa2d4c;
   margin-bottom: 0;
 }
 .cid-qxtwnq6Vm8 table th {
@@ -14739,11 +14759,11 @@ body {
   border-bottom: none;
 }
 .cid-qxtwnq6Vm8 table th:hover {
-  background: #131b31;
+  background: #aa2d4c;
   color: #ffffff;
 }
 .cid-qxtwnq6Vm8 table td {
-  border-top: 1px solid #131b31;
+  border-top: 1px solid #aa2d4c;
 }
 .cid-qxtwnq6Vm8 .dataTables_filter {
   text-align: right;
