@@ -1649,7 +1649,7 @@ body {
   margin: 0 0 .5rem 0;
 }
 .cid-qAWzG9TPVN H2 {
-  text-align: right;
+  text-align: center;
   color: #efefef;
 }
 .cid-qwwOSS0bNS {
@@ -1704,9 +1704,12 @@ body {
   margin-top: 1rem;
   margin-bottom: 0;
 }
-.cid-qwH74HXdTb {
-  padding-top: 0px;
+.cid-qAXCSHq4RM {
+  padding-top: 120px;
   padding-bottom: 0px;
+  background-color: #131b31;
+}
+.cid-qwH74HXdTb {
   background-color: #131b31;
 }
 .cid-qwH74HXdTb .mbr-figure {
