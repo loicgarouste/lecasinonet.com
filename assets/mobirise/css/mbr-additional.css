@@ -1278,25 +1278,6 @@ body {
   height: auto;
   min-height: 100vh;
 }
-.cid-qCL3iB7v7Q {
-  padding-top: 135px;
-  padding-bottom: 135px;
-  background-image: url("../../../assets/images/christmas-19-2000x1333.jpg");
-}
-.cid-qCL3iB7v7Q .mbr-section-subtitle {
-  letter-spacing: .2rem;
-}
-.cid-qCL3iB7v7Q .mbr-text,
-.cid-qCL3iB7v7Q .mbr-section-btn {
-  text-align: right;
-}
-.cid-qCL3iB7v7Q H1 {
-  text-align: right;
-  color: #fffcce;
-}
-.cid-qCL3iB7v7Q SPAN {
-  color: #ff3366;
-}
 .cid-qwlcqzk1Ul .navbar {
   padding: .5rem 0;
   background: #131b31;
@@ -1665,6 +1646,25 @@ body {
     flex-shrink: 0;
   }
 }
+.cid-qCLaeSu6X7 {
+  padding-top: 135px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/ob-328b11-sapin-cadeaux.gif");
+}
+.cid-qCLaeSu6X7 .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.cid-qCLaeSu6X7 .mbr-text,
+.cid-qCLaeSu6X7 .mbr-section-btn {
+  text-align: right;
+}
+.cid-qCLaeSu6X7 H1 {
+  text-align: right;
+  color: #fffcce;
+}
+.cid-qCLaeSu6X7 SPAN {
+  color: #ff3366;
+}
 .cid-qB2iZmQVCn {
   padding-top: 0px;
   padding-bottom: 0px;
@@ -1794,6 +1794,25 @@ body {
 .cid-qwNIkFxFec .mbr-gallery-item > div > span {
   color: #ff3366;
   text-align: center;
+}
+.cid-qCL9LEnFyu {
+  padding-top: 135px;
+  padding-bottom: 90px;
+  background-image: url("../../../assets/images/ob-328b11-sapin-cadeaux.gif");
+}
+.cid-qCL9LEnFyu .mbr-section-subtitle {
+  letter-spacing: .2rem;
+}
+.cid-qCL9LEnFyu .mbr-text,
+.cid-qCL9LEnFyu .mbr-section-btn {
+  text-align: right;
+}
+.cid-qCL9LEnFyu H1 {
+  text-align: right;
+  color: #fffcce;
+}
+.cid-qCL9LEnFyu SPAN {
+  color: #ff3366;
 }
 .cid-qwOvnP7WAk {
   padding-top: 90px;
