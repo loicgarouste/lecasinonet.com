@@ -8,7 +8,7 @@
       "styling": {
         "primaryColor": "#7f1933",
         "secondaryColor": "#7f1933",
-        "successColor": "#fdff77",
+        "successColor": "#ff3366",
         "infoColor": "#131b31",
         "warningColor": "#131b31",
         "dangerColor": "#ff7f9f",
@@ -84,7 +84,7 @@
               "color": "#fffcce"
             },
             "SPAN": {
-              "color": "#ff7f9f"
+              "color": "#ff3366"
             }
           },
           "_name": "header10",
